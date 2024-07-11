@@ -1,5 +1,3 @@
-# My Website
-
 This website was created using Tailwind CSS, Framer Motion library, React Icons library, JavaScript, JavaScript XML (JSX), and Vite.
 
 ## Pre-Installations
