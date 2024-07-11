@@ -1,8 +1,35 @@
-# React + Vite
+# My Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This website was created using Tailwind CSS, Framer Motion library, React Icons library, JavaScript, JavaScript XML (JSX), and Vite.
 
-Currently, two official plugins are available:
+## Pre-Installations
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ensure you have the following set up before running the project:
+
+### Node Version Manager (nvm)
+
+- Version: 1.1.2
+
+### Node.js and npm Versions
+
+- Node.js Version: 18.20.3
+- npm Version: 9.6.1
+
+## Installation Steps
+
+1. **Create Vite Project:**
+   ```bash
+   npm create vite@latest myProject -- --template react
+   ```
+2. **Install Tailwind CSS**
+    ```bash
+   npm install -D tailwindcss postcss autoprefixer
+   ```
+
+After running the above commands, the necessary Node modules will be generated automatically.
+
+To run the website locally, use the following command in the root directory:
+    ```bash
+    npm run dev
+    ```
+This command starts the development server and allows you to preview the website in your browser.
